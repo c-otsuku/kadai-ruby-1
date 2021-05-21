@@ -1,4 +1,5 @@
-str1 = '大澤小太郎です。'
-num = 3
-str2 = '歳です。'
-puts str1 + num.to_s + str2    # 数値は3 と出力される
+myouji = '大澤'
+namae = '小太郎'
+nenrei = 3
+shimei = myouji + namae
+puts shimei + 'です。' + nenrei.to_s + '歳です。'
